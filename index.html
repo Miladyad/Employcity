@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Keywords" content=""></meta>
+        <meta name="Description" content=""></meta>
+        <title>Test page</title>
+        <link rel="stylesheet" href="css/normalize.css" />      
+        <link rel="stylesheet" href="css/style.min.css" />        
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header__block">
+                    <div class="header__logo"><a href="/">LoremIpsum.<span>Net</span></a></div>
+
+                    <div class="header__menu">
+                        <ul>
+                            <li><a href="#">Бизнес</a></li>
+                            <li><a href="#">О нас</a></li>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Оформить заказ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="header-menu__mobile">
+                        <button class="menu-toggle-switch menu-toggle-switch__htx">
+                            <span>toggle menu</span>
+                        </button>
+                    </div>
+
+                    <div class="header-menu__dropdown">
+                        <div class="menu-dropdown__container">
+                            <ul>
+                            <li class="menu-item"><a href="#">Бизнес</a></li>
+                            <li class="menu-item"><a href="#">О нас</a></li>
+                            <li class="menu-item"><a href="#">Цены</a></li>
+                            <li class="menu-item"><a href="#">Оформить заказ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>            
+        </header>
+
+        <main>
+            <section class="visual">
+                <div class="container">
+                    <h1><span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span></h1>
+                    <div class="visual__content">
+                        <p><strong>At vero eos et accusamus et iusto odio dignissimos ducimus!</strong></p>
+                        <ul>
+                            <li>- Totam rem aperiam eaque ipsa</li>
+                            <li>- Sit voluptatem accusantium doloremque laudantium</li>
+                            <li>- Sed ut perspiciatis, unde omnis iste natus error</li>
+                        </ul>                           
+                    </div>
+                    <div class="visual__buttons">
+                        <a href="#" class="btn btn--blue">Заказать</a>
+                        <a href="#" class="btn btn--white">Подробнее</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="form">
+                <div class="container">
+                    <div class="form__header">
+                        <h2>Оформление <span>Заказа</span></h2>
+                        <p>Перед заполнением формы ознакомьтесь с&nbsp;нашей схемой работы!</p>
+                    </div>
+
+                    <div class="form__steps">
+                        <div class="form__step form__step--search">
+                            <p>Lorem ipsum dolor sit amet</p>
+                            <div class="form__points"></div>
+                        </div>                        
+                        <div class="form__step form__step--percent">
+                            <p>Сonsecteturadipiscing elit</p>
+                            <div class="form__points"></div>
+                        </div>                        
+                        <div class="form__step form__step--add">
+                            <p>Sed do eiusmod tempor</p>
+                            <div class="form__points"></div>
+                        </div>                        
+                        <div class="form__step form__step--mail">
+                            <p>Esse cillum dolore eu fugiat</p>
+                            <div class="form__points"></div>
+                        </div>                        
+                        <div class="form__step form__step--payment">
+                            <p>Excepteur sint occaecat cupidatat non proident</p>
+                        </div>
+                    </div>
+
+                    <div class="form__main">
+                        <form enctype="multipart/form-data">
+                            <div class="form__row">
+                                <select name="select-type" id="select-type">
+                                    <option value="hide">Выберите тип системы</option>
+                                    <option value="Sed ut perspiciatis">Sed ut perspiciatis</option>
+                                    <option value="Nemo enim ipsam">Nemo enim ipsam</option>
+                                    <option value="Et harum quidem">Et harum quidem</option>
+                                    <option value="Temporibus autem">Temporibus autem</option>
+                                    <option value="Itaque earum rerum">Itaque earum rerum</option>
+                                    <option value="Sed ut perspiciatis 1">Sed ut perspiciatis 1</option>
+                                    <option value="Nemo enim ipsam 1">Nemo enim ipsam 1</option>
+                                    <option value="Et harum quidem 1">Et harum quidem 1</option>
+                                    <option value="Temporibus autem 1">Temporibus autem 1</option>
+                                    <option value="Itaque earum rerum 1">Itaque earum rerum 1</option>
+                                </select>                            
+                                <input type="email" name="user_email" id="email" placeholder="Ваш e-mail" class="input__text">
+                                <input type="text" name="user_name" id="name" placeholder="Ваше имя" class="input__text">
+                            </div>
+                            <div class="form__row">
+                                <div class="range-slider">
+                                    <div class="range-slider__label">
+                                        <label>Sed ut perspiciatis, unde omnis iste natus</label>  
+                                        <div><span class="range-slider__value">0</span> %</div>
+                                    </div>                                    
+                                    <input name="range" type="range" class="range-slider__range" value="75" min="0" max="100" />                                    
+                                </div>
+                                <div class="input__wrapper">
+                                    <input type="file" name="file" id="input__file" class="input__file">
+                                    <label for="input__file" class="input__file-button"><span>Прикрепить файл</span></label>
+                                </div>
+                            </div>
+                            <div class="form__row">
+                                <button type="submit" class="btn btn--blue">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container">
+                <div class="footer__block">
+                    <div class="footer__block-item">
+                        <p>© 2018 «<span>LoremIpsum.net</span>» Все права защищены.</p>
+                    </div>
+                    <div class="footer__block-item">
+                        <ul>
+                            <li><span class="icon--qiwi">Qiwi wallet</span></li>
+                            <li><span class="icon--ym">Yandex Money</span></li>
+                            <li><span class="icon--wm">Web Money</span></li>                           
+                        </ul>
+                    </div>
+                    <div class="footer__block-item">
+                        <ul>                            
+                            <li><a href="mailto:info@ipsum228.com"  class="icon--mail" target="_blank">info@ipsum228.com</a></li>
+                            <li><a href="#" target="_blank" class="icon--vk">Мы вконтакте</a></li>
+                        </ul>
+                    </div>                    
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/jquery-3.7.1.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
